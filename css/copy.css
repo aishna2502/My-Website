@@ -1793,7 +1793,8 @@ body {
 .mobile.lock-scroll, .mobile.lock-scroll body, .mobile.lock-scroll .wrapper {
   height: 100%;
   position: relative;
-  overflow-x: hidden; }
+/*   overflow-x: hidden; */
+} 
 
 .content {
   z-index: 2;
