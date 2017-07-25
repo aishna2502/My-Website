@@ -1785,7 +1785,7 @@ body {
   opacity: 1;
   visibility: visible;
   position: relative;
-  overflow: hidden;
+  overflow-x: hidden;
   -webkit-transition: opacity 400ms ease-out;
   -moz-transition: opacity 400ms ease-out;
   transition: opacity 400ms ease-out; }
