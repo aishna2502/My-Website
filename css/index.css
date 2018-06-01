@@ -1,0 +1,391 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+*{
+	padding:0;
+	margin: 0;
+}
+header{
+	display: fixed;
+}
+
+body{
+	
+	height: 450px;
+
+}
+
+.breaking{    
+    width:500px;
+    word-wrap: break-word;
+}
+#nav-bar{
+	position: fixed;
+	width: 100%;
+	margin: 5px;
+	display: flex;
+	margin-top: 30px;
+}
+
+#nav-bar-listing{
+	list-style: none;
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+	margin: 2px;
+	width: 96%;
+	margin: 5px;
+	margin-right: 25px;
+	position: fixed;
+	top: 20px;
+	font-family: "Open Sans", sans-serif;
+	font-size: 14px;
+
+}
+
+#nav-bar{
+	position: relative;
+	top:0px;
+	display: fixed;
+	/*z-index: 2px;*/
+	/*position: relative;*/
+}
+
+.listing{
+	margin: 5px; 
+	color: white;
+}
+
+#img{
+	 background:url("../465120276.jpg");	 
+	 background-size: cover;  
+	 height: 50px;
+	 overflow: none;
+}
+#nav-bar > div{
+	width: 100%;
+}
+
+#nav-bar-listing > li > a{
+  position: relative;
+  color: #9AF3A9;
+  text-decoration: none;
+  font-weight: 700;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+#nav-bar-listing > li > a:hover {
+  color: #9AF3A9;
+}
+
+#me{
+	height: 250px;
+	#width: 50px;
+}
+
+#nav-bar-listing > li > a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #00cc00;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+#nav-bar-listing > li > a:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+#subsec1{
+	position: absolute;
+	top: 160px;
+	left:160px;
+	right:160px;
+	background-color: white;
+	height: auto;
+	padding:90px;
+}
+
+#content{
+	background-color: white;
+	margin: 45px;
+	border: 0;
+	font-family: inherit;
+	font-size: 100%;
+	font-style: inherit;
+	font-weight: 100;
+	vertical-align: baseline;
+	font-size: 36px;
+	font-family: sans-serif;
+}
+
+.clearfix{
+	clear: both;
+}
+
+.profile-preword{
+	margin:50px;
+}
+
+ .speech-bubble {
+      background-color: #1ee2e7;
+      margin:50px;
+      #border: 1px solid #662f8c;
+      border-radius: 0px;
+      #width: 500px;
+      text-align: center;
+      color: white;
+      font-family: "Open Sans", sans-serif;
+      padding-left: 71px;
+      padding-right: 20px;      
+      padding-top: 10px;
+      padding-bottom: 10px;
+      position: relative;
+      margin: 0 0 40px;
+  }
+  .speech-bubble:before {
+      border-color: transparent transparent transparent transparent;
+      border-width: 8px 8px 0px 8px;
+      border-style: dotted;
+      position: absolute;
+      left: 10px;
+      font-family: "Open Sans", sans-serif;
+      font-weight: 700;
+      bottom: 12px;
+      content:'Hello';
+
+  }
+  .speech-bubble:after {
+      border-color: #1ee2e7 transparent;
+      border-style: dotted;
+      border-width: 7px 7px 0px;
+      bottom: -7px;
+      content:'';
+      position: absolute;
+      left: 10px;
+  }
+  #right{
+  	display: inline-block;
+  	justify-content: flex-end;
+  	min-width: 50px;
+  	margin-left: 0px;
+  	clear: left;
+  	top: 50px;
+  	position: absolute;
+
+  }
+
+.subtitle{
+	font-size: 20px;
+	margin-top: 5px;
+}
+
+  #left{
+  	display: inline-block;
+  	width: auto;
+  }
+
+#new_hr{
+	width:520px;
+	border: 1px solid #BCACAC;
+	#margin-left: 50px;
+}
+
+table {
+    font-family: sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 14px;
+}
+
+td, th {
+    text-align: left;
+    padding:1	;
+    padding: 12px;
+}
+
+.first{
+	font-weight: bold;
+}
+
+.second{
+	color: grey;
+}
+.social {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center; }
+  .social li {
+    display: inline-block;
+    margin: 5px 15px; }
+    .social li a {
+      width: 45px;
+      height: 45px;
+      position: relative;
+      display: inline-block;
+      background-color: transparent;
+      -webkit-transition: -webkit-transition, background-color 0.25s linear 0s;
+      -moz-transition: -moz-transition, background-color 0.25s linear 0s;
+      transition: transition, background-color 0.25s linear 0s;
+      -webkit-backface-visibility: hidden;
+      -moz-backface-visibility: hidden;
+      backface-visibility: hidden;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      border-radius: 50%; }
+      .social li a:hover {
+        text-decoration: none;
+        background-color: rgba(0, 0, 0, 0.1); }
+      .social li a, .social li a .rsicon {
+        line-height: 45; }
+      .social li a .rsicon {
+        color: #fff;
+        font-size: 20px;
+        line-height: 45px;
+        display: block; }
+
+@media (max-width: 767px) {
+  .social li {
+    margin-left: 5px;
+    margin-right: 5px; }
+    .social li a {
+      width: 35px;
+      height: 35px; }
+      .social li a, .social li a .rsicon {
+        line-height: 35px; }
+      .social li a .rsicon {
+        font-size: 17px; } }
+
+.hov{
+	position: relative;
+	justify-content: center;
+	border-radius: 30px;
+	align-content: center;
+	height: 50px;
+	align-items: center;
+	width: 50px;
+	margin-left:-2px;
+	text-align:center;
+	vertical-align: sub;
+
+	
+}
+
+li{
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	position: relative;
+	#padding-top:5px;
+}
+
+.hov:hover{
+	background-color: rgba(0, 0, 0, 0.3);
+	#border-radius: 50%;
+	#border: 2px transparent;
+	#border:#006B00;
+	#opacity: 1;	
+ 	#visibility: visible;
+  	position: center;
+  	overflow: hidden;
+  	text-align:center;
+  	vertical-align: sub;
+    #-webkit-transition: opacity 400ms ease-in-out;
+    #-moz-transition: opacity 400ms ease-in-out;
+    #transition: opacity 400ms ease-in; 
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover 
+{
+     color:white; 
+     text-decoration:none; 
+     cursor:pointer;  
+}
+
+/**
+ * 6.7 - Scroll Animations
+ */
+.desktop .animate-down {
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transform: translate(0, -100px);
+  -moz-transform: translate(0, -100px);
+  transform: translate(0, -100px); }
+.desktop .animate-down.animated {
+  opacity: 1;
+  visibility: visible;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transform: translate(0, 0);
+  -moz-transform: translate(0, 0);
+  transform: translate(0, 0);
+  -webkit-transition: all 400ms ease-out 100ms;
+  -moz-transition: all 400ms ease-out 100ms;
+  transition: all 400ms ease-out 100ms; }
+.desktop .animate-up {
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transform: translate(0, 100px);
+  -moz-transform: translate(0, 100px);
+  transform: translate(0, 100px); }
+.desktop .animate-up.animated {
+  opacity: 1;
+  visibility: visible;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transform: translate(0, 0);
+  -moz-transform: translate(0, 0);
+  transform: translate(0, 0);
+  -webkit-transition: -webkit-transform 400ms ease-out 100ms, opacity 400ms ease-out 100ms;
+  -moz-transition: -moz-transform 400ms ease-out 100ms, opacity 400ms ease-out 100ms;
+  transition: transform 400ms ease-out 100ms, opacity 400ms ease-out 100ms; }
+.desktop .animate-right {
+  opacity: 0;
+  visibility: hidden;
+  transform: translate(-100px, 0); }
+.desktop .animate-right.animated {
+  opacity: 1;
+  visibility: visible;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transform: translate(0, 0);
+  -moz-transform: translate(0, 0);
+  transform: translate(0, 0);
+  -webkit-transition: -webkit-transform 400ms ease-out 100ms, opacity 400ms ease-out 100ms;
+  -moz-transition: -moz-transform 400ms ease-out 100ms, opacity 400ms ease-out 100ms;
+  transition: transform 400ms ease-out 100ms, opacity 400ms ease-out 100ms; }
+.desktop .animate-left {
+  opacity: 0;
+  visibility: hidden;
+  transform: translate(100px, 0); }
+.desktop .animate-left.animated {
+  opacity: 1;
+  visibility: visible;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transform: translate(0, 0);
+  -moz-transform: translate(0, 0);
+  transform: translate(0, 0);
+  -webkit-transition: -webkit-transform 400ms ease-out 100ms, opacity 400ms ease-out 100ms;
+  -moz-transition: -moz-transform 400ms ease-out 100ms, opacity 400ms ease-out 100ms;
+  transition: transform 400ms ease-out 100ms, opacity 400ms ease-out 100ms; 
+}
+
+
